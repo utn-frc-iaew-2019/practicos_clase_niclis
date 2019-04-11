@@ -1,0 +1,43 @@
+JSON: 
+Java Script Object Notation, standar basado en texto plano para el intercambio de información,
+por lo que se usa en muchos sistemas que requieren mostrar o enviar información para ser interpretada
+por otros sistemas.
++Ventajas: independiente de cualquier lenguaje de programación. Los servicios que comparten info.
+por este medio, no necesitan hablar el mismo idioma, es decir, el emisor puede ser Java y el receptor PHP,
+cada lenguaje tiene su propia libreria para codificar y decodificar cadena de JSON.
+
+{+Puede representar cuatro tipos primitivos (cadenas, números, booleanos, valores nulos) y dos tipos
+estructurados ({objeto} y [arrays]).} Dentro de llaves.
+
++ESTRUCTURA: "Nombre de propiedades":"valor de propiedad", ----> separados por comas
+
+
+
+XML: (extensible markup language)
+Lenguaje de etiqueta. Lenguaje de marcado extensible, que a diferencia del HTML separa el contenido
+de la presentación, y se está convirtiendo en un estándar de amplio uso para el intercambio de datos.
+Cada paquete de info está delimitado por dos etiquetas, separando contenido de la presentación.
++Ejemplo:
+<Nombre>Mateo</Nombre>    Nombre sería la etiqueta.  Dato=Mateo, Significado=Nombre.
+
++Ejemplo:
+<Datos-Nacimiento> ------> Etiqueta de apertura.
+  <Persona>
+    <Nombre>Mateo</Nombre>
+    <Fecha>dato
+    <Ciudad>dato
+  </Persona>
+  <Persona>
+    <Nombre>dato
+  </Persona>
+</Datos-Nacimiento> ---------> Etiqueta de cierre.
+
+PROPIEDADES:
++Case sensitive.
++No se pueden utilizar etiquetas con las letras xml.
++Una etiqueta vacía es la que no tiene contenido. Ejemplo: <Persona nombre="Walter"/>
+						           <parámetro/>
+
++Las etiquetas pueden tener atributos. Propiedad del elemento + valor de la propiedad entre "" o ''.
+ejemplo: <vehiculo marca='Toyota' modelo ="45 TC">En venta</vehiculo>
+Por ende las etiquetas con atributos pueden ser modeladas con etiquetas vacia con atributos.

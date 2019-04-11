@@ -1,0 +1,19 @@
+{
+"string": "Hello World",
+"Nombre": "Yazimel",
+"Apellido": "Niclis",
+"Carrera": "Ing. en Sistemas de la Información",
+"Legajo": 70345,
+"Facultad": "UTN regional Córdoba",
+"Listado materias": [
+                    {"IdMateria":1, "Nombre": "MATSUP", "Nota": 8},
+                    {"IdMateria":2, "Nombre": "FISICA2", "Nota": 8},
+                    {"IdMateria":3, "Nombre": "PyE", "Nota": 8}],
+
+"FechaddMMAAAA": 22032019,
+"DatosAlumno": ["Yazimel", "Niclis", "Ing. en Sistemas de la Información", 70345, "UTN regional Córdoba"]
+
+
+
+
+}

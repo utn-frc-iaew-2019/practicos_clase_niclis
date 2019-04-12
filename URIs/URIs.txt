@@ -1,0 +1,7 @@
+URIs correctas
+http://www.flechabus.com.ar/servicios/destinos/
+https://github.com/utn-frc-iaew-2019/practicos_clase_niclis
+
+URIs mal formadas
+https://www.cordobavende.com/productos/59-motos-y-otros/593-bicicletas-con-motor/lista-1-20.html
+https://es.m.wikipedia.org/wiki/Wikipedia:Portada
